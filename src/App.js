@@ -90,6 +90,16 @@ class App extends Component {
                             </div>
                         )
                     })}
+                    <Col sm = "2.5">
+                        <Card>
+                            <CardHeader>
+                                <div className="row">
+                                    <input/>
+                                    <Button>Save</Button>
+                                </div>
+                            </CardHeader>
+                        </Card>
+                    </Col>
                 </CardDeck>
             </div>
         )
